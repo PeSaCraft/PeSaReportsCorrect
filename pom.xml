@@ -9,7 +9,7 @@
     </properties>
     <groupId>de.sunrobindev</groupId>
     <artifactId>PeSaReports</artifactId>
-    <version>#007</version>
+    <version>#9</version>
 
     <repositories>
         <repository>
