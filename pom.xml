@@ -8,8 +8,8 @@
         <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
     <groupId>de.sunrobindev</groupId>
-    <artifactId>reports</artifactId>
-    <version>000</version>
+    <artifactId>PeSaReports</artifactId>
+    <version>#007</version>
 
     <repositories>
         <repository>
