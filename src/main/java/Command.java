@@ -20,12 +20,12 @@ public class Command
                 for (i = 1; i < args.length; i++) {
                     msg = msg + " " + args[i];
                 }
-                p.sendMessage("ï¿½aDu hast den Spieler ï¿½7ï¿½l" + a.getName() + " ï¿½afï¿½rï¿½7ï¿½l" + msg + " ï¿½aï¿½lReportet.");
+                p.sendMessage("§aDu hast den Spieler §l" + a.getName() + " §afuer §7§1" + msg + " §a§lReportet.");
                 for (Player all : Bukkit.getOnlinePlayers()) {
                     if (all.hasPermission("report"))
                     {
-                        all.sendMessage("ï¿½4ï¿½L REPORT ï¿½7>> ï¿½aDer Spieler ï¿½7ï¿½l" + p.getName() + " ï¿½ahat den Spieler ï¿½7ï¿½l" + a.getName() + " ï¿½areportet.");
-                        all.sendMessage("ï¿½4ï¿½L REPORT ï¿½7>> ï¿½aGrund: ï¿½7ï¿½l" + msg);
+                        all.sendMessage("§4§L REPORT >> §a Der Spieler §7§l" + p.getName() + " §ahat den Spieler §7§l" + a.getName() + " §areportet.");
+                        all.sendMessage("§4§L REPORT §7>> §aGrund: §7§l" + msg);
                     }
                 }
             }
