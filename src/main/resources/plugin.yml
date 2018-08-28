@@ -1,0 +1,7 @@
+name: ReportSystem
+version: 1.0
+main: main
+author: VIIN SunRobinDev
+commands:
+  report:
+    description: reporte einen Spieler
